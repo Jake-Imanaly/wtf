@@ -1,0 +1,71 @@
+body{
+    background-color: antiquewhite;
+    color: #070606;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+    
+}
+.image{ width: 300px;
+    border-radius: 5px;
+    
+
+}
+.block {
+    
+    padding: 15px 20px;
+    background-color: rgb(228, 228, 174);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+}
+.block h3{
+    text-align: center;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+table {
+    width: 100%;
+
+}
+table td{
+    padding-bottom: 10px;
+}
+
+.form-voprosi label{
+    display: block;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+   
+ }
+ .radiowtf label{
+    color: #666;
+    font-weight: normal;
+
+ }
+
+
+input[type="radio"]:checked::after{
+    top: -2px;
+    left: -1px;
+    background-color: #d1a71c;
+    width: 12px;
+    height: 12px;
+    border-radius: 15px;
+    position: relative;
+    display: inline-block;
+    visibility: visible;
+    content: " ";
+    /* content ВАЖНА!*/
+    border: 2px solid white;
+}
+ 
